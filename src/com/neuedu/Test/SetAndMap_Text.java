@@ -21,7 +21,7 @@ public class SetAndMap_Text {
         for(Object obj:set){
             System.out.println(obj);//Set没有get方法，只能用增强for遍历
         }
-        Map <String,String> map =new HashMap<>();
+        Map <String,String> map =new HashMap<>();//HashMap  内部维护一个链表数组做哈希表，默认大小为16 可以通过构造方法指定初始大小，当键值对个数大于等于临界值时对数组进行扩容，扩容策略为当前数组大小乘以2。
         map.put("001","张三");
         map.put("002","李四");
         map.put("002","王六");
