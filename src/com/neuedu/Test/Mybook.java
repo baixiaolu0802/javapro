@@ -1,8 +1,12 @@
 package com.neuedu.Test;
+
+import java.io.Serializable;
+
 /**
  * Created by 13930 on 2020/2/5.
  */
-public class Mybook {
+public class Mybook implements Serializable{
+    private  static final long serialversionUID=1L;
     private String name;
     private Double price;
     private String press;
